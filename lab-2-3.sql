@@ -7,3 +7,5 @@
 -- +------+-------------------+
 
 
+SELECT year, name FROM teams WHERE park = "U.S. Cellular Field" ORDER BY year DESC LIMIT 1;
+SELECT COUNT (*) from teams;
